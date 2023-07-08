@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    @*<meta name="viewport" content="width=device-width" />
+    <title>Bethany's Pie Shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <base href="/" />*@
+</head>
+<body>
+    <div class="container">
+        <header>
+           @* im gonna take out all the style because I dont know how it works*@
+            <div>
+                <code>This is The LayOut</code>
+                <h1>
+                    <a asp-controller="Home" asp-action="Index">GO HOME</a>
+                </h1>
+                <h1>
+                    <a asp-controller="Pie" asp-action="List">List all pies</a>
+                </h1>
+                <h1>
+                    <a asp-controller="Pie" asp-action="PiesOfTheWeek">Pies Of the Week</a>
+                </h1>
+                <code>LayOuts END </code>
+            </div>
+        </header>
+        <br />
+        <br />
+        @RenderBody()
+    </div>
+</body>
+</html>

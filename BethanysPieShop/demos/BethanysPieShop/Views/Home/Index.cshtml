@@ -1,0 +1,6 @@
+﻿@model HomeViewModel
+
+@foreach (var pie in Model.PiesOfTheWeek)
+{
+    <partial name="_PieCart" model="pie" />
+}

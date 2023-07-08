@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\Images\\bethanys-pie-shop-logo_horiz-white.png",
+      "PackagePath": "staticwebassets\\Images\\bethanys-pie-shop-logo_horiz-white.png"
+    },
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\Images\\bethanys-pie-shop-logomark.png",
+      "PackagePath": "staticwebassets\\Images\\bethanys-pie-shop-logomark.png"
+    },
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\Images\\carousel1.jpg",
+      "PackagePath": "staticwebassets\\Images\\carousel1.jpg"
+    },
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\Images\\carousel2.jpg",
+      "PackagePath": "staticwebassets\\Images\\carousel2.jpg"
+    },
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\Images\\carousel3.jpg",
+      "PackagePath": "staticwebassets\\Images\\carousel3.jpg"
+    },
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\Images\\contact\\contact.jpg",
+      "PackagePath": "staticwebassets\\Images\\contact\\contact.jpg"
+    },
+    {
+      "Id": "D:\\.NET FOLDER\\PluralSight\\BethanysPieShop\\demos\\BethanysPieShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BethanysPieShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BethanysPieShop.props",
+      "PackagePath": "build\\BethanysPieShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BethanysPieShop.props",
+      "PackagePath": "buildMultiTargeting\\BethanysPieShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BethanysPieShop.props",
+      "PackagePath": "buildTransitive\\BethanysPieShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

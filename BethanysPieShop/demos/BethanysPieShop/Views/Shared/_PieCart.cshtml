@@ -1,0 +1,21 @@
+﻿@*Esta es la forma usando _ViewImport*@
+@*@model Pie*@
+
+
+@*esta es la forma regular de hacerlo, si unsar _ViewImport*@
+@model BethanysPieShop.Models.Pie
+
+<div style="background-color:antiquewhite; width:600px;" >
+    <bold><code>#This is from a partial View#</code></bold><br />
+    <h4>
+        <a asp-controller="Model" asp-action="Details"
+           asp-route-id="@Model.PieId">@Model.Name</a>
+    </h4>
+    @Model.Price.ToString("c")<br />
+    <img src="@Model.ImageUrl" alt="@Model.Name" width="300" height="200">
+
+    <br />
+    <bold><code># END OF PARTIAL VIEW #</code></bold>
+</div>
+<br />
+<br />

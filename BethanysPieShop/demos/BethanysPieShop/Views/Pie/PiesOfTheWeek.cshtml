@@ -1,0 +1,14 @@
+﻿@model PieListViewModel
+
+<h2>@Model.CurrentCategory</h2>
+@foreach(var p in Model.Pies)
+{
+	<div>
+		@p.Name<br>
+		@p.Category.CategoryName<br>
+		@p.Price<br><br>
+		@p.LongDescription<br><br>
+		<img src=@p.ImageUrl width="500" height="350">
+		@*<img alt="@Model.Name" src="@Model.ImageUrl" width="300" height="200" />*@
+	</div>
+}

@@ -1,0 +1,10 @@
+﻿@model PieListViewModel
+
+<h2>Category: @Model.CurrentCategory</h2>
+
+
+@foreach (var pie in Model.Pies)
+{
+    <partial name="_PieCart" model="pie" />
+}
+
